@@ -2,7 +2,7 @@ newlisp-twitter-oauth
 =====================
 
 This file can download tweets from a named tweeter, using Twitter API version 1.1, OAuth 1.0A.
-It followshttps://dev.twitter.com/docs/auth/oauth) and uses 'curl'.
+It follows [dev.twitter.com/docs/auth/oauth](https://dev.twitter.com/docs/auth/oauth) and uses 'curl'.
 
 It uses (and currently patches) "/usr/share/newlisp/modules/crypto.lsp"
 Usage:
