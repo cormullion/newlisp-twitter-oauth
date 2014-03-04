@@ -3,7 +3,7 @@
 ;; @module twitter-oauth.lsp 
 ;; @description getting tweets from Twitter using OAuth 1.0a authentication 
 ;; @version 0.1
-;; @author cormullion 2014-03-01 17:38:11
+;; @author cormullion 2014-03-02 15:01:03
 ;;
 ;; <h2>Getting tweets from Twitter using OAuth</h2>
 ;; This file can download tweets from a named tweeter, using Twitter API version 1.1, OAuth 1.0A.
@@ -147,6 +147,9 @@
     ; enough oauth crap, just do it (TM)
     (json-parse (first (exec curl-command)))))
 
+; end
+
+[text]
 ; entry point 
 ; supply the query parameters as a nested assoc list:
 
@@ -163,3 +166,4 @@
 (println results)
 
 (exit)
+[/text]
